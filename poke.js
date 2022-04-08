@@ -1,7 +1,7 @@
 const axios = require('axios');
 const express = require('express') ;
 const app =express();
-const PORT = 8080;
+var port = process.env.PORT || 8080;
 let url ='https://pokeapi.co/api/v2/';
 
 
