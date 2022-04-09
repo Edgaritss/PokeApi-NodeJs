@@ -17,7 +17,7 @@ app.listen(
 )
 
 app.get('/',(req,res) =>{
-    res.send('Entro solo')
+    res.send('Bienvenido a Edgar Poke Api')
 })
 
 app.get('/pokemon/name',(req,res) =>{
